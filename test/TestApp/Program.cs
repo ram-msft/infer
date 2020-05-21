@@ -81,9 +81,10 @@ namespace TestApp
             Stopwatch watch = new Stopwatch();
             watch.Start();
 
-            //new VmpTests().GammaSumTest();
             //new SerialTests().MaxArrayTest();
-            //new TrueSkillTests().RaterDrawMarginPrecisionAndThresholdsModel();
+            //new BayesPointMachineTests().SparseFactorizedBayesPointEvidence();
+            //new ParallelSchedulerTests().DistributedScheduleTest();
+            new TrueSkillTests().RaterDrawMarginPrecisionAndThresholdsModel();
 
             if (false)
             {
